@@ -1,0 +1,80 @@
+{
+  "best_overall": "GPR",
+  "best_per_target": {
+    "thermal_resistance": "GPR",
+    "pressure_drop": "RSM-3-Ridge",
+    "temperature_nonuniformity": "GPR"
+  },
+  "ranking": [
+    {
+      "model": "GPR",
+      "normalized_RMSE_y1": 0.0,
+      "normalized_RMSE_y2": 0.0494,
+      "normalized_RMSE_y3": 0.0,
+      "overall_score": 0.0165,
+      "RMSE_y1_raw": 0.002153,
+      "RMSE_y2_raw": 0.001917,
+      "RMSE_y3_raw": 0.002586,
+      "R2_y1_mean": 0.9552,
+      "R2_y2_mean": 0.9938,
+      "R2_y3_mean": 0.9785,
+      "recommended_role": "primary_surrogate"
+    },
+    {
+      "model": "GBDT",
+      "normalized_RMSE_y1": 0.0844,
+      "normalized_RMSE_y2": 0.2555,
+      "normalized_RMSE_y3": 0.1711,
+      "overall_score": 0.1703,
+      "RMSE_y1_raw": 0.002495,
+      "RMSE_y2_raw": 0.003842,
+      "RMSE_y3_raw": 0.004269,
+      "R2_y1_mean": 0.9416,
+      "R2_y2_mean": 0.9754,
+      "R2_y3_mean": 0.9275,
+      "recommended_role": "comparison"
+    },
+    {
+      "model": "RSM-3-Ridge",
+      "normalized_RMSE_y1": 0.1484,
+      "normalized_RMSE_y2": 0.0,
+      "normalized_RMSE_y3": 0.3883,
+      "overall_score": 0.1789,
+      "RMSE_y1_raw": 0.002755,
+      "RMSE_y2_raw": 0.001455,
+      "RMSE_y3_raw": 0.006404,
+      "R2_y1_mean": 0.9255,
+      "R2_y2_mean": 0.9963,
+      "R2_y3_mean": 0.8749,
+      "recommended_role": "secondary_surrogate"
+    },
+    {
+      "model": "RF",
+      "normalized_RMSE_y1": 0.6729,
+      "normalized_RMSE_y2": 1.0,
+      "normalized_RMSE_y3": 0.744,
+      "overall_score": 0.8056,
+      "RMSE_y1_raw": 0.004882,
+      "RMSE_y2_raw": 0.010796,
+      "RMSE_y3_raw": 0.009902,
+      "R2_y1_mean": 0.7839,
+      "R2_y2_mean": 0.8267,
+      "R2_y3_mean": 0.704,
+      "recommended_role": "comparison"
+    },
+    {
+      "model": "RSM-2",
+      "normalized_RMSE_y1": 1.0,
+      "normalized_RMSE_y2": 0.5117,
+      "normalized_RMSE_y3": 1.0,
+      "overall_score": 0.8372,
+      "RMSE_y1_raw": 0.006209,
+      "RMSE_y2_raw": 0.006235,
+      "RMSE_y3_raw": 0.01242,
+      "R2_y1_mean": 0.654,
+      "R2_y2_mean": 0.9373,
+      "R2_y3_mean": 0.539,
+      "recommended_role": "interpretability_baseline"
+    }
+  ]
+}

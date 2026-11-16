@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/raw/
+data/processed/
+outputs/audit/
+outputs/paper_materials/
+paper/
+*.docx
+*.zip
